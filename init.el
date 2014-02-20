@@ -6,6 +6,7 @@
   (normal-top-level-add-to-load-path '("pyenv.el")))
 
 (load "my-globals")
+(load "my-modes")
 (load "my-key-bindings")
 
 ;;; init.el ends here
