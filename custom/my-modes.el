@@ -9,4 +9,8 @@
 
 (when (fboundp 'winner-mode) (winner-mode 1))
 
+(global-rainbow-delimiters-mode)
+
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+
 ;;; my-modes.el ends here

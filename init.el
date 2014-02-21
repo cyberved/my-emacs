@@ -7,6 +7,7 @@
   (normal-top-level-add-to-load-path '("pyenv.el" "git-modes" "magit")))
 
 (load "my-globals")
+(load "my-requires")
 (load "my-modes")
 (load "my-key-bindings")
 
