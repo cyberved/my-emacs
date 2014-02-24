@@ -13,4 +13,7 @@
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
+;; auto-complete
+(ac-config-default)
+
 ;;; my-modes.el ends here
