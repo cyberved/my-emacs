@@ -5,10 +5,16 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/")
 (let ((default-directory "~/.emacs.d/vendor/"))
   (normal-top-level-add-to-load-path
-    '("pyenv.el" "git-modes" "js2-mode" "magit" "auto-complete")))
+    '("pyenv.el" "git-modes" "js2-mode" "magit" "auto-complete" "elfeed")))
 
 (load "my-globals")
 (load "my-requires")
+
+(if (file-exists-p "~/.my-elfeed.el")
+  (progn
+    (require 'elfeed)
+    (load "~/.my-elfeed.el")))
+
 (load "my-modes")
 (load "my-key-bindings")
 
