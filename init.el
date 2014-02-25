@@ -9,6 +9,7 @@
 
 (load "my-globals")
 (load "my-requires")
+(load "my-eshell")
 
 (if (file-exists-p "~/.my-elfeed.el")
   (progn
