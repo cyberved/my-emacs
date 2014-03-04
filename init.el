@@ -17,6 +17,7 @@
     (load "~/.my-elfeed.el")))
 
 (load "my-modes")
+(load "my-buffers")
 (load "my-key-bindings")
 
 ;;; init.el ends here
