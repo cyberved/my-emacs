@@ -5,7 +5,8 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/")
 (let ((default-directory "~/.emacs.d/vendor/"))
   (normal-top-level-add-to-load-path
-    '("pyenv.el" "git-modes" "js2-mode" "magit" "auto-complete" "elfeed")))
+    '("pyenv.el" "git-modes" "js2-mode" "magit" "auto-complete" "elfeed"
+      "solarized-theme")))
 
 (load "my-globals")
 (load "my-requires")
