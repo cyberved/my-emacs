@@ -16,4 +16,7 @@
 ;; auto-complete
 (ac-config-default)
 
+;; git-gutter
+(global-git-gutter-mode t)
+
 ;;; my-modes.el ends here
