@@ -17,4 +17,14 @@
 (global-set-key (kbd "C-x v r") 'git-gutter:revert-hunk)
 (global-set-key (kbd "C-x v =") 'git-gutter:popup-hunk)
 
+;; Multiple Cursors
+;; edit lines in an active region
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+;; mark lines based on keywords in the buffer
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+;; click to add cursor
+(global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
+
 ;;; my-key-bindings.el ends here
