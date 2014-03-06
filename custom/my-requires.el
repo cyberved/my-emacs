@@ -9,6 +9,7 @@
 (require 'js2-mode)
 (require 'magit)
 (require 'multiple-cursors)
+(require 'projectile)
 (require 'rainbow-delimiters)
 
 ;;; my-requires.el ends here
