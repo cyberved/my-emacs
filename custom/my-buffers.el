@@ -5,10 +5,16 @@
 
 (setq ibuffer-saved-filter-groups
       '(("default"
-	 ("dired" (mode . dired-mode))
-	 ("org" (mode . org-mode))
-	 ("emacs" (or (name . "^\\*scratch\\*$")
-		      (name . "^\\*Messages\\*$"))))))
+	 ("Dired" (mode . dired-mode))
+	 ("Org" (mode . org-mode))
+	 ("Lisp" (mode . emacs-lisp-mode))
+	 ("HTML" (mode . html-mode))
+	 ("JavaScript" (or (mode . js2-mode)))
+	 ("Version Control" (or (mode . magit-commit-mode)
+				(mode . magit-diff-mode)
+				(mode . magit-status-mode)
+				(mode . magit-process-mode)
+				(mode . diff-mode))))))
 
 (add-hook 'ibuffer-mode-hook
 	  '(lambda ()
@@ -16,4 +22,3 @@
 	     (ibuffer-switch-to-saved-filter-groups "default")))
 
 ;;; my-buffers.el ends here
-
