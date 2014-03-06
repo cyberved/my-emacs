@@ -6,7 +6,7 @@
 (let ((default-directory "~/.emacs.d/vendor/"))
   (normal-top-level-add-to-load-path
     '("pyenv.el" "git-modes" "js2-mode" "magit" "auto-complete" "elfeed"
-      "solarized-theme")))
+      "multiple-cursors" "solarized-theme")))
 
 (load "my-globals")
 (load "my-requires")
