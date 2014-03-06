@@ -19,7 +19,7 @@
 
 (load "my-modes")
 (load "my-buffers")
+(load "my-theme")
 (load "my-key-bindings")
 
 ;;; init.el ends here
-
