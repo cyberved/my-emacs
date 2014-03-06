@@ -19,4 +19,7 @@
 ;; git-gutter
 (global-git-gutter-mode t)
 
+;; projectile
+(projectile-global-mode)
+
 ;;; my-modes.el ends here
