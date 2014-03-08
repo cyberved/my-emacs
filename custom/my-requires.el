@@ -11,5 +11,6 @@
 (require 'multiple-cursors)
 (require 'projectile)
 (require 'rainbow-delimiters)
+(require 'web-mode)
 
 ;;; my-requires.el ends here
