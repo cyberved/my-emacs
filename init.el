@@ -17,6 +17,7 @@
     (require 'elfeed)
     (load "~/.my-elfeed.el")))
 
+(load "my-defuns")
 (load "my-modes")
 (load "my-buffers")
 (load "my-theme")
