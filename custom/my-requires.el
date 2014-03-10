@@ -5,12 +5,15 @@
 
 (require 'auto-complete)
 (require 'auto-complete-config)
+(require 'inf-ruby)
+(require 'ac-inf-ruby)
 (require 'git-gutter)
 (require 'js2-mode)
 (require 'magit)
 (require 'multiple-cursors)
 (require 'projectile)
 (require 'rainbow-delimiters)
+(require 'rbenv)
 (require 'web-mode)
 
 ;;; my-requires.el ends here
