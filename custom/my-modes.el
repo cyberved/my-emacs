@@ -1,5 +1,10 @@
 ;;; my-modes.el --- Emacs Modes Configurations
 
+(column-number-mode 1)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+(tool-bar-mode -1)
+
 (when (fboundp 'ido-mode) (ido-mode 1))
 
 (when (fboundp 'recentf-mode)
