@@ -5,6 +5,7 @@
 
 (require 'auto-complete)
 (require 'auto-complete-config)
+(require 'buffer-move)
 (require 'inf-ruby)
 (require 'ac-inf-ruby)
 (require 'git-gutter)

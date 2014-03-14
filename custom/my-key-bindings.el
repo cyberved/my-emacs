@@ -19,6 +19,11 @@
 (global-set-key (kbd "C-x v r") 'git-gutter:revert-hunk)
 (global-set-key (kbd "C-x v =") 'git-gutter:popup-hunk)
 
+(global-set-key (kbd "<M-up>") 'buf-move-up)
+(global-set-key (kbd "<M-down>") 'buf-move-down)
+(global-set-key (kbd "<M-left>") 'buf-move-left)
+(global-set-key (kbd "<M-right>") 'buf-move-right)
+
 ;; Multiple Cursors
 ;; edit lines in an active region
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
